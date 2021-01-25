@@ -1,2 +1,3 @@
 docs/*.html -linguist-documentation
 docs/*.css -linguist-documentation
+*.md -linguist-documentation
