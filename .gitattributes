@@ -1,2 +1,4 @@
-docs/html5/*.html -linguist-documentation
-docs/css3/*.css -linguist-documentation
+docs/html5/*/*.html -linguist-documentation
+docs/html5/*/*/*.html -linguist-documentation
+docs/css3/*/*.css -linguist-documentation
+docs/css3/*/*/*.css -linguist-documentation
