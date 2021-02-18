@@ -1,3 +1,6 @@
 function indexHTML() {
-  document.write("Hello, World!");
+  var intro = "Hello, World!";
+  if intro == "Hello, World!" {
+    document.getElementById("intro").innerHTML == intro + "<br>";
+  }
 }
