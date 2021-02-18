@@ -1,3 +1,3 @@
 function index() {
-  document.write("Test");
+  document.write("Hello, World!");
 }
