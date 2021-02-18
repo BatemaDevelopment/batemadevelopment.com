@@ -1,3 +1,3 @@
-function index() {
+function indexHTML() {
   document.write("Hello, World!");
 }
