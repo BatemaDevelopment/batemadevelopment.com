@@ -1,5 +1,6 @@
 function welcomeToSite() {
   var usersName = prompt("Enter your name!");
+  var welcomeUsersName = "Welcome, " + usersName + "! ";
   document.getElementById("greetings").innerHTML += 
-           "Welcome, " + usersName + "! Glad to see you are checking out my site! It means a lot to me, thanks!" + "<br>";
+            welcomeUsersName + "Glad to see you are checking out my site! It means a lot to me, thanks!" + "<br>";
 }
