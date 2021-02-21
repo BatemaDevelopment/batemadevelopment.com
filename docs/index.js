@@ -1,5 +1,5 @@
-function home() {
-  var intro = "Hello, World!";
+function welcomeToSite() {
+  var usersName = prompt("Enter your name!");
   document.getElementById("greetings").innerHTML += 
-           intro + "<br>";
+           "Welcome, " + usersName + ", glad to see you are checking out my site!" + "<br>";
 }
