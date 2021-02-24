@@ -27,7 +27,7 @@ header {
 #left {
   background-color: rgb(97, 97, 100);
   float: left;
-  width: 15px;
+  width: 50px;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -35,7 +35,7 @@ header {
 #right {
   background-color: rgb(61, 61, 63);
   float: left;
-  width: 60px;
+  width: 80px;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -48,7 +48,7 @@ header {
   padding: 0;
   overflow: hidden;
   background-color: rgb(139, 137, 133);
-  width: 80px;
+  width: 15px;
 }
 
 #topnav li {
