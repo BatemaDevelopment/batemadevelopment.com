@@ -10,12 +10,11 @@ header {
   text-align: center;
 }
 
-header {
+footer {
   background-color: black;
   color: rgb(112, 103, 103);
   height: 80px;
   padding-top: 5px;
-  text-align: center;
 }
 
 /* 2-column layout (start) */
