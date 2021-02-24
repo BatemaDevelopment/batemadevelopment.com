@@ -13,6 +13,7 @@ header {
 #footer {
   background-color: black;
   color: rgb(112, 103, 103);
+  margin: 80px;
   height: 80px;
   padding-top: 5px;
 }
