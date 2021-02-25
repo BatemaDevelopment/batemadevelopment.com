@@ -21,8 +21,9 @@ header {
 }
 
 #footer a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
+  overflow: hidden;
 }
 
 /* 2-column layout (start) */
