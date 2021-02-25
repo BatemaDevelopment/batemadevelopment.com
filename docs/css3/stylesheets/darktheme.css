@@ -24,6 +24,7 @@ header {
   display: inline-block;
   text-decoration: none;
   overflow: hidden;
+  color: white;
 }
 
 /* 2-column layout (start) */
