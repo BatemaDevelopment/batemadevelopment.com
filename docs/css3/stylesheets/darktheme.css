@@ -20,7 +20,7 @@ header {
   padding-right: 5px;
 }
 
-#footer footer p a {
+#footer a {
   display: block;
   text-decoration: none;
 }
