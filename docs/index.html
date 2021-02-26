@@ -5,7 +5,6 @@
     <script>
       var darkTheme = "rel=\"stylesheet\ type=\"text/css\" href=\"/css3/stylesheets/darktheme.css\"";
       var lightTheme = "rel=\"stylesheet\ type=\"text/css\" href=\"/css3/stylesheets/lighttheme.css\"";
-      var currentTheme = darkTheme;
   
       var dark = "dark";
       var light = "light";
@@ -21,7 +20,7 @@
       } else if (askTheme === light || askTheme === capsLight || askTheme === fullCapsLight) {
         document.getElementById("themeChosen").innerText += lightTheme;
       } else {
-        alert("Please try again. You typed " + askTheme + ". Use that to check for errors. We only allow the words, light and dark. We only accept three combinations of the character type of each word. For example, light in all lowercase (light), light with the first letter capitalized (Light), and light with all letters capitalized (LIGHT). These rules also apply for the word, \"dark\". Thanks!")
+        alert("Please try again. You typed " + askTheme + ". Use that to check for errors. We only allow the words, light and dark. We only accept three combinations of the character type of each word. For example, light in all lowercase (light), light with the first letter capitalized (Light), and light with all letters capitalized (LIGHT). These rules also apply for the word, \"dark\". Thanks!");
       }
     </script>
     <link id="themeChosen" rel="stylesheet" type="text/css" href="/css3/stylesheets/darktheme.css">
