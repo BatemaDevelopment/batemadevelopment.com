@@ -16,9 +16,9 @@
       var askTheme = prompt("Type light for the light theme and dark for the dark theme");
   
       if (askTheme == dark || askTheme == capsDark || askTheme == fullCapsDark) {
-        document.getElementById("themeChosen").innerText += darkTheme;
+        document.getElementById("themeChosen").setAttribute += darkTheme;
       } else if (askTheme == light || askTheme == capsLight || askTheme == fullCapsLight) {
-        document.getElementById("themeChosen").HTML_ATTRIBUTES += lightTheme;
+        document.getElementById("themeChosen").setAttribute += lightTheme;
       } else {
         alert("Please try again. You typed " + askTheme + ". Use that to check for errors. We only allow the words, light and dark. We only accept three combinations of the character type of each word. For example, light in all lowercase (light), light with the first letter capitalized (Light), and light with all letters capitalized (LIGHT). These rules also apply for the word, \"dark\". Thanks!");
       }
