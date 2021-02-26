@@ -1,22 +1,40 @@
-function themeSelection() {
-  var darkTheme = "rel=\"stylesheet\n type=\"text/css\" href=\"/css3/stylesheets/darktheme.css\"";
-  var lightTheme = "rel=\"stylesheet\n type=\"text/css\" href=\"/css3/stylesheets/lighttheme.css\"";
-  var currentTheme = darkTheme;
-  
-  var dark = "dark";
-  var light = "light";
-  var capsDark = "Dark";
-  var capsLight = "Light";
-  var fullCapsDark = "DARK";
-  var fullCapsLight = "LIGHT";
-  
-  var askTheme = prompt("Type light for the light theme and dark for the dark theme");
-  
-  if (askTheme === dark || askTheme === capsDark || askTheme === fullCapsDark) {
-    document.getElementById("themeChosen").innerText += darkTheme;
-  } else if (askTheme === light || askTheme === capsLight || askTheme === fullCapsLight) {
-    document.getElementById("themeChosen").innerText += lightTheme;
-  } else {
-    alert("Please try again. You typed " + askTheme + ". Use that to check for errors. We only allow the words, light and dark. We only accept three combinations of the character type of each word. For example, light in all lowercase (light), light with the first letter capitalized (Light), and light with all letters capitalized (LIGHT). These rules also apply for the word, \"dark\". Thanks!")
+function changeTheme() {
+  var selTheme = document.getElementById("selTheme");
+  var theme = selTheme.value;
+        
+  if (theme == "Light") {
+    document.body.style.backgroundColor = rgb(80, 77, 77);
+    document.header.style.backgroundColor = black;
+    document.header.style.color = rgb(112, 103, 103);
+    document.#footer.style.backgroundColor = black;
+    document.#footer.style.color = rgb(112, 103, 103);
+    document.#left.style.backgroundColor = rgb(97, 97, 100);
+    document.#right.style.backgroundColor = rgb(61, 61, 63);
+    document.#topnav.ul.style.backgroundColor = rgb(139, 137, 133);
+    document.li.a:hover:not.#active.style.backgroundColor = rgb(34, 34, 34);
+    document.li.a:hover:not.#active.style.color = rgb(115, 116, 115);
+    document.#dropdown:hover:not.#active.#dropbtn.style.backgroundColor = rgb(34, 34, 34);
+    document.#dropdown:hover:not.#active.#dropbtn.style.color = rgb(115, 116, 115);
+    document.#topnav.#dropdown-content.a:hover.style.backgroundColor = rgb(99, 97, 99);
+    document.#topnav.#dropdown-content.a:hover.style.color = rgb(37, 37, 37);
+    document.#topnav.#active.style.backgroundColor = rgb(37, 37, 37);
+    document.#topnav.#active.style.backgroundColor = rgb(99, 99 ,99);
+  } else if (theme == "Dark") {
+    document.body.style.backgroundColor = rgb(80, 77, 77);
+    document.header.style.backgroundColor = black;
+    document.header.style.color = rgb(112, 103, 103);
+    document.#footer.style.backgroundColor = black;
+    document.#footer.style.color = rgb(112, 103, 103);
+    document.#left.style.backgroundColor = rgb(97, 97, 100);
+    document.#right.style.backgroundColor = rgb(61, 61, 63);
+    document.#topnav.ul.style.backgroundColor = rgb(139, 137, 133);
+    document.li.a:hover:not.#active.style.backgroundColor = rgb(34, 34, 34);
+    document.li.a:hover:not.#active.style.color = rgb(115, 116, 115);
+    document.#dropdown:hover:not.#active.#dropbtn.style.backgroundColor = rgb(34, 34, 34);
+    document.#dropdown:hover:not.#active.#dropbtn.style.color = rgb(115, 116, 115);
+    document.#topnav.#dropdown-content.a:hover.style.backgroundColor = rgb(99, 97, 99);
+    document.#topnav.#dropdown-content.a:hover.style.color = rgb(37, 37, 37);
+    document.#topnav.#active.style.backgroundColor = rgb(37, 37, 37);
+    document.#topnav.#active.style.backgroundColor = rgb(99, 99 ,99);
   }
 }
