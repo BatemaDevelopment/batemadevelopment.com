@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head onload="themeChooser()">
+  <head onload="themeSelection()">
     <title>BatemaDevelopment</title>
     <link id="themeChosen" rel="stylesheet" type="text/css" href="/css3/stylesheets/darktheme.css">
     <link rel="shortcut icon" type="image/x-icon" href="/images/ico/BatemaDevelopment.png">
@@ -9,9 +9,10 @@
     <meta name="keywords" content="BatemaDevelopment">
     <script src="/jquery/jquery-3.5.1.js"></script>
     <script src="/index.js"></script>
+    <script src="/js/stylesheets/themeChooser.js"></script>
   </head>
     
-  <body onload="welcomeToSite() themeChooser()">
+  <body onload="welcomeToSite()" onload="themeSelection()">
     <header><h1>BatemaDevelopment</h1></header>
     <div id="topnav">
       <ul>
