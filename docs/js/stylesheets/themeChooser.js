@@ -1,4 +1,4 @@
-function themeSelection {
+function themeSelection() {
   var darkTheme = "rel=\"stylesheet\n type=\"text/css\" href=\"/css3/stylesheets/darktheme.css\"";
   var lightTheme = "rel=\"stylesheet\n type=\"text/css\" href=\"/css3/stylesheets/lighttheme.css\"";
   var currentTheme = darkTheme;
