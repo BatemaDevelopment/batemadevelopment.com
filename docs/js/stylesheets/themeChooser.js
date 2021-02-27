@@ -2,7 +2,7 @@ function changeTheme() {
   var selTheme = document.getElementById("selTheme");
   var theme = selTheme.value;
         
-  if (theme == "Light") {
+  if (selTheme.value == "Light") {
     document.body.style.backgroundColor = white;
     document.header.style.backgroundColor = lightgray;
     document.header.style.color = rgb(112, 103, 103);
@@ -19,7 +19,7 @@ function changeTheme() {
     document.#topnav.#dropdown-content.a:hover.style.color = rgb(37, 37, 37);
     document.#topnav.#active.style.backgroundColor = rgb(37, 37, 37);
     document.#topnav.#active.style.backgroundColor = rgb(99, 99 ,99);
-  } else if (theme == "Dark") {
+  } else if (selTheme.value == "Dark") {
     document.body.style.backgroundColor = rgb(80, 77, 77);
     document.header.style.backgroundColor = black;
     document.header.style.color = rgb(112, 103, 103);
