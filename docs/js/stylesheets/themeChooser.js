@@ -3,10 +3,10 @@ function changeTheme() {
   var theme = selTheme.value;
         
   if (theme == "Light") {
-    document.body.style.backgroundColor = white;
-    document.header.style.backgroundColor = lightgray;
+    document.body.style.backgroundColor = "white";
+    document.header.style.backgroundColor = "lightgray";
     document.header.style.color = rgb(112, 103, 103);
-    document.footer.style.backgroundColor = black;
+    document.footer.style.backgroundColor = "black";
     document.footer.style.color = rgb(112, 103, 103);
     document.left.style.backgroundColor = rgb(97, 97, 100);
     document.right.style.backgroundColor = rgb(61, 61, 63);
