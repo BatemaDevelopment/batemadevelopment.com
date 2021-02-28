@@ -1,7 +1,7 @@
 function changeTheme() {
   var selTheme = document.getElementById("selTheme");
   var theme = selTheme.value;
-        
+
   if (theme == "Light") {
     document.body.style.backgroundColor = "white";
     document.header.style.backgroundColor = "lightgray";
@@ -18,7 +18,7 @@ function changeTheme() {
     document.topnav.dropdown.content.a.hover.style.backgroundColor = "rgb(140, 140, 140)";
     document.topnav.dropdown.content.a.hover.style.color = "rgb(37, 37, 37)";
     document.topnav.active.style.backgroundColor = "rgb(37, 37, 37)";
-    document.topnav.active.style.color = "rgb(99, 99 ,99)"
+    document.topnav.active.style.color = "rgb(99, 99 ,99)";
   } else if (theme == "Dark") {
     document.body.style.backgroundColor = "rgb(80, 77, 77)";
     document.header.style.backgroundColor = "black";
