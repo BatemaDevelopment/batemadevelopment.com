@@ -21,6 +21,7 @@ header {
 }
 
 #footer a {
+  float: center;
   display: inline-block;
   text-decoration: none;
   overflow: hidden;
