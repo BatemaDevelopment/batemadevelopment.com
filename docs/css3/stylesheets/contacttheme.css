@@ -19,11 +19,11 @@
   padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
+  text-align: center;
+  float: center;
 }
 
 #footer a {
-  text-align: center;
-  float: center;
   display: inline-block;
   text-decoration: none;
   overflow: hidden;
