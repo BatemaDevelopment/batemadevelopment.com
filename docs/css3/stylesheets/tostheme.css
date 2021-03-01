@@ -23,6 +23,7 @@
 
 #footer a {
   text-align: center;
+  float: center;
   display: inline-block;
   text-decoration: none;
   overflow: hidden;
