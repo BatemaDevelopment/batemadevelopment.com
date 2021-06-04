@@ -1,17 +1,21 @@
-#column {
+/* Created by Lukas-Batema (Lukas Batema) */
+/* column style override (start) */
+.column {
   float: left;
   width: 100%;
 }
 
-#single {
+.single {
   background-color: rgb(97, 97, 100);
   float: left;
   width: 99%;
   padding-left: 5px;
   padding-right: 5px;
 }
+/* column style override (end) */
 
-#footer {
+/* footer style override (start) */
+.footer {
   background-color: black;
   color: rgb(112, 103, 103);
   margin-top: 72px;
@@ -23,9 +27,10 @@
   float: center;
 }
 
-#footer a {
+.footer a {
   display: inline-block;
   text-decoration: none;
   overflow: hidden;
   color: white;
 }
+/* footer style override (end) */

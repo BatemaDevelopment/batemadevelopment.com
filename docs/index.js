@@ -1,6 +1,1 @@
-function welcomeToSite() {
-  var usersName = prompt("Enter your name!");
-  var welcomeUsersName = "Welcome, " + usersName + " ";
-  document.getElementById("greetings").innerHTML += 
-            welcomeUsersName + "to BatemaDevelopment!" + "<br>";
-}
+// Out of use as of 06/04/2021, until needed.

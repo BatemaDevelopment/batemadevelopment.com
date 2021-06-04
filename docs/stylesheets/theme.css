@@ -1,7 +1,11 @@
+/* Created by Lukas-Batema (Lukas Batema) */
+/* general styling (start) */
 body {
   background-color: rgb(80, 77, 77);
 }
+/* general styling (end) */
 
+/* header layout (start) */
 header {
   background-color: black;
   color: rgb(112, 103, 103);
@@ -9,53 +13,53 @@ header {
   padding-top: 5px;
   text-align: center;
 }
+/* header layout (end) */
 
-#footer {
+/* footer layout (start) */
+.footer {
   background-color: black;
   color: rgb(112, 103, 103);
-  margin-top: 199px;
-  height: 80px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
   text-align: center;
-  float: center;
+  float: left;
+  width: 100%;
 }
 
-#footer a {
+.footer a {
   display: inline-block;
   text-decoration: none;
   overflow: hidden;
   color: white;
 }
+/* footer layout (end) */
 
-/* 2-column layout (start) */
-#column {
+/* column layout (start) */
+.column {
   float: left;
-  width: 100%;
 }
 
-#left {
+.column.left {
   background-color: rgb(97, 97, 100);
-  float: left;
-  width: 73.2%;
-  height: 200px;
-  padding-left: 5px;
-  padding-right: 5px;
+  width: 60%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
-#right {
+.column.right {
   background-color: rgb(61, 61, 63);
-  float: left;
-  width: 25%;
-  height: 200px;
-  padding-left: 5px;
-  padding-right: 5px;
+  width: 30%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
-/* 2-column layout (end) */
 
-/* topnav layout (start) */
-#topnav ul {
+@media screen and (max-width: 600px) {
+  .column.left, .column.right {
+    width: 100%;
+  }
+}
+/* column layout (end) */
+
+/* top horizontal navigation bar layout (start) */
+.topnav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -64,11 +68,11 @@ header {
   width: 100%;
 }
 
-#topnav li {
+.topnav li {
   float: left;
 }
 
-#topnav li a {
+.topnav li a {
   display: block;
   text-align: center;
   padding: 10px;
@@ -76,40 +80,40 @@ header {
   color: black
 }
 
-li a, #dropbtn {
+li a, .dropbtn {
   display: block;
   text-align: center;
   padding: 0;
   text-decoration: none;
 }
 
-li a:hover:not(#active), #dropdown:hover:not(#active) #dropbtn {
+li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
   color: rgb(115, 116, 115);
   background-color: rgb(34, 34, 34);
 }
 
-#topnav li#dropdown {
+.topnav li.dropdown {
   display: inline-block;
 }
 
-#topnav #dropdown-content a {
+.topnav .dropdown-content a {
   padding: 10px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-#topnav #dropdown-content a:hover {
+.topnav .dropdown-content a:hover {
   color: rgb(37, 37, 37);
   background-color: rgb(99, 97, 99);
 }
 
-#dropdown:hover #dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
-#topnav #active {
+.topnav .active {
   color: rgb(99, 99, 99);
   background-color: rgb(37, 37, 37);
 }
-/* topnav layout (end) */
+/* top horizontal navigation bar layout (end) */
