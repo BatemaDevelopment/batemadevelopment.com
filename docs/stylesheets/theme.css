@@ -64,10 +64,12 @@ header {
 }
 /* single column layout (end) */
 
+/* links style override (start) */ 
 p a {
   text-decoration: none;
   color: lightslategray;
 }
+/* links style override (end) */
 
 /* top horizontal navigation bar layout (start) */
 .topnav ul {
