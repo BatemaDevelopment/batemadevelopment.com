@@ -32,11 +32,14 @@ header {
 }
 /* footer layout (end) */
 
-/* column layout (start) */
+/* general column layout (start) */
 .column {
   float: left;
+  width: 100%;
 }
+/* general column layout (end) */
 
+/* two column layout (start) */
 .column.left {
   background-color: rgb(97, 97, 100);
   width: 60%;
@@ -50,13 +53,16 @@ header {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
+/* two column layout (end) */
 
-@media screen and (max-width: 600px) {
-  .column.left, .column.right {
-    width: 100%;
-  }
+/* single column layout (start) */
+.column.single {
+  background-color: rgb(61, 61, 63);
+  width: 95%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
-/* column layout (end) */
+/* single column layout (end) */
 
 /* top horizontal navigation bar layout (start) */
 .topnav ul {
