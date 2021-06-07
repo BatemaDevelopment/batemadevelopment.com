@@ -64,6 +64,11 @@ header {
 }
 /* single column layout (end) */
 
+p a {
+  text-decoration: none;
+  color: lightslategray;
+}
+
 /* top horizontal navigation bar layout (start) */
 .topnav ul {
   list-style-type: none;
