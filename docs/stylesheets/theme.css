@@ -3,6 +3,15 @@
 body {
   background-color: rgba(80, 77, 77, 1.00);
 }
+
+* {
+  font-family: sans-serif;
+  transition: all 0.2s ease;
+}
+.topnav .active a {
+  color: black;
+  font-weight: 600;
+}
 /* general styling (end) */
 
 /* header layout (start) */
@@ -28,8 +37,7 @@ body {
   float: left;
   width: 100%;
   display: block;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-radius: 0px 0px 8px 8px;
 }
 
 .footer a {
@@ -128,10 +136,9 @@ p a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(139, 137, 133, 1.00);
+  background-color: rgb(56, 56, 56);
   width: 100%;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .topnav li {
@@ -143,7 +150,7 @@ p a {
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  color: black
+  color: #9b9b9b;
 }
 
 li a, .dropbtn {
@@ -179,7 +186,7 @@ li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
 }
 
 .topnav .active {
-  color: rgba(99, 99, 99, 1.00);
-  background-color: rgba(200, 200, 200, 1.00);
+  color: rgb(0, 0, 0);
+  background-color: rgb(167, 167, 167);
 }
 /* top horizontal navigation bar layout (end) */
