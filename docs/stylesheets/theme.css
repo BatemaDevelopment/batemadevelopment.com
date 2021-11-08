@@ -1,5 +1,10 @@
 /* Created by Lukas-Batema (Lukas Batema) */
 /* general styling (start) */
+* {
+  font-family: sans-serif;
+  transition: all 0.2s ease;
+}
+
 body {
   background-color: rgba(80, 77, 77, 1.00);
 }
