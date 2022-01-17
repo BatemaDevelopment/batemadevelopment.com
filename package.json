@@ -14,15 +14,15 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lukas-Batema/lukas-batema.github.io.git"
   },
   "keywords": [],
-  "author": "",
+  "author": [
+    "Lukas-Batema", 
+    "BatemaDevelopment"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Lukas-Batema/lukas-batema.github.io/issues"
