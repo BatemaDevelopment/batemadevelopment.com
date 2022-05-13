@@ -1,11 +1,11 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  mode: 'production',
-  entry: './src/**/*.js',
+  mode: "production",
+  entry: "./src/**/*.js",
   output: {
-    path: path.resolve(__dirname, 'docs'),
-    filename: './**/*.js',
+    path: path.resolve(__dirname, "docs"),
+    filename: "./**/*.js",
   },
   experiments: {
     asyncWebAssembly: true,
@@ -13,4 +13,4 @@ module.exports = {
     outputModule: true,
     topLevelAwait: true,
   },
-}
+};
