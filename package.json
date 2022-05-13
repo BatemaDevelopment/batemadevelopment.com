@@ -1,11 +1,9 @@
 {
   "dependencies": {
-    "animejs": "^3.2.1"
-  },
-  "devDependencies": {
-    "chalk": "^5.0.0",
-    "pg": "^8.7.1",
-    "tailwindcss": "^3.0.15"
+    "@sentry/browser": "^6.19.7",
+    "@sentry/tracing": "^6.19.7",
+    "animejs": "^3.2.1",
+    "tcol": "^1.0.1"
   },
   "name": "lukas-batema.github.io",
   "description": "Welcome to the official website for BatemaDevelopment!",
@@ -18,9 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/Lukas-Batema/lukas-batema.github.io.git"
   },
-  "keywords": [],
-  "author": [
-    "Lukas-Batema", 
+  "keywords": [
+    "BatemaDevelopment"
+  ],
+  "authors": [
+    "Lukas-Batema",
     "BatemaDevelopment"
   ],
   "license": "ISC",
