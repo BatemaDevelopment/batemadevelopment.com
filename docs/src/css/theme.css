@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgba(80, 77, 77, 1.00);
+  background-color: rgba(80, 77, 77, 1);
 }
 /* general styling (end) */
 
@@ -56,7 +56,7 @@ body {
 
 /* two column layout (start) */
 .column.left {
-  background-color: rgba(97, 97, 100, 1.00);
+  background-color: rgba(97, 97, 100, 1);
   width: 60%;
   padding-left: 2.5%;
   padding-right: 2.5%;
@@ -64,7 +64,7 @@ body {
 }
 
 .column.right {
-  background-color: rgba(61, 61, 63, 1.00);
+  background-color: rgba(61, 61, 63, 1);
   width: 30%;
   padding-left: 2.5%;
   padding-right: 2.5%;
@@ -74,7 +74,7 @@ body {
 
 /* three column layout (start) */
 .column.left3 {
-  background-color: rgba(100, 100, 100, 1.00);
+  background-color: rgba(100, 100, 100, 1);
   width: 28.33%;
   height: 150px;
   padding-left: 2.5%;
@@ -83,7 +83,7 @@ body {
 }
 
 .column.middle3 {
-  background-color: rgba(61, 61, 61, 1.00);
+  background-color: rgba(61, 61, 61, 1);
   width: 28.33%;
   height: 150px;
   padding-left: 2.5%;
@@ -91,7 +91,7 @@ body {
 }
 
 .column.right3 {
-  background-color: rgba(69, 69, 69, 1.00);
+  background-color: rgba(69, 69, 69, 1);
   width: 28.33%;
   height: 150px;
   padding-left: 2.5%;
@@ -99,12 +99,16 @@ body {
   display: inline-block;
 }
 
-.column.left3 ul, .column.middle3 ul, .column.right3 ul {
+.column.left3 ul,
+.column.middle3 ul,
+.column.right3 ul {
   list-style-type: none;
   float: right;
 }
 
-.column.left3 ul a, .column.middle3 ul a, .column.right3 ul a {
+.column.left3 ul a,
+.column.middle3 ul a,
+.column.right3 ul a {
   text-decoration: none;
   color: lightslategray;
 }
@@ -113,14 +117,14 @@ body {
 /* single column layout (start) */
 .column.single {
   left: 30%;
-  background-color: rgba(97, 97, 100, 1.00);
+  background-color: rgba(97, 97, 100, 1);
   width: 95%;
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
 /* single column layout (end) */
 
-/* links style override (start) */ 
+/* links style override (start) */
 p a {
   text-decoration: none;
   color: lightslategray;
@@ -133,7 +137,7 @@ p a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(139, 137, 133, 1.00);
+  background-color: rgba(139, 137, 133, 1);
   width: 100%;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -148,19 +152,21 @@ p a {
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  color: black
+  color: black;
 }
 
-li a, .dropbtn {
+li a,
+.dropbtn {
   display: block;
   text-align: center;
   padding: 0;
   text-decoration: none;
 }
 
-li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
-  color: rgba(115, 116, 115, 1.00);
-  background-color: rgba(34, 34, 34, 1.00);
+li a:hover:not(.active),
+.dropdown:hover:not(.active) .dropbtn {
+  color: rgba(115, 116, 115, 1);
+  background-color: rgba(34, 34, 34, 1);
 }
 
 .topnav li.dropdown {
@@ -175,8 +181,8 @@ li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
 }
 
 .topnav .dropdown-content a:hover {
-  color: rgba(37, 37, 37, 1.00);
-  background-color: rgba(99, 97, 99, 1.00);
+  color: rgba(37, 37, 37, 1);
+  background-color: rgba(99, 97, 99, 1);
 }
 
 .dropdown:hover .dropdown-content {
@@ -184,7 +190,7 @@ li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
 }
 
 .topnav .active {
-  color: rgba(99, 99, 99, 1.00);
-  background-color: rgba(200, 200, 200, 1.00);
+  color: rgba(99, 99, 99, 1);
+  background-color: rgba(200, 200, 200, 1);
 }
 /* top horizontal navigation bar layout (end) */
