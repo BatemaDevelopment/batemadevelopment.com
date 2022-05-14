@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Lukas-Batema/lukas-batema.github.io/issues"
   },
-  "homepage": "https://github.com/Lukas-Batema/lukas-batema.github.io#readme"
+  "homepage": "https://github.com/Lukas-Batema/lukas-batema.github.io#readme",
+  "devDependencies": {
+    "pg": "^8.7.3"
+  }
 }
