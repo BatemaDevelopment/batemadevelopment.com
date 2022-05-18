@@ -196,7 +196,8 @@ li a:hover:not(.active),
 /* top horizontal navigation bar layout (end) */
 
 /* form styling (start) */
-.form.login {
+.form.login,
+.form.signup {
   background-color: rgb(69, 69, 69);
   color: rgb(200, 200, 200);
 }
@@ -208,7 +209,7 @@ li a:hover:not(.active),
 
 .fieldset.legend.login,
 .fieldset.legend.signup {
-  color:rgb(115, 116, 115);
+  color:rgb(200, 200, 200);
 }
 
 .button.login,
