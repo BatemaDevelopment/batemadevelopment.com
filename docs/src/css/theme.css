@@ -208,7 +208,7 @@ li a:hover:not(.active),
 
 .fieldset.legend.login,
 .fieldset.legend.signup {
-  color:rgb(115, 116, 115);
+  color: rgb(115, 116, 115);
 }
 
 .button.login,
