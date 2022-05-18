@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgba(80, 77, 77, 1);
+  background-color: rgb(80, 77, 77);
 }
 /* general styling (end) */
 
@@ -56,7 +56,7 @@ body {
 
 /* two column layout (start) */
 .column.left {
-  background-color: rgba(97, 97, 100, 1);
+  background-color: rgb(97, 97, 100);
   width: 60%;
   padding-left: 2.5%;
   padding-right: 2.5%;
@@ -64,7 +64,7 @@ body {
 }
 
 .column.right {
-  background-color: rgba(61, 61, 63, 1);
+  background-color: rgb(61, 61, 63);
   width: 30%;
   padding-left: 2.5%;
   padding-right: 2.5%;
@@ -74,7 +74,7 @@ body {
 
 /* three column layout (start) */
 .column.left3 {
-  background-color: rgba(100, 100, 100, 1);
+  background-color: rgb(100, 100, 100);
   width: 28.33%;
   height: 150px;
   padding-left: 2.5%;
@@ -83,7 +83,7 @@ body {
 }
 
 .column.middle3 {
-  background-color: rgba(61, 61, 61, 1);
+  background-color: rgb(61, 61, 61);
   width: 28.33%;
   height: 150px;
   padding-left: 2.5%;
@@ -91,7 +91,7 @@ body {
 }
 
 .column.right3 {
-  background-color: rgba(69, 69, 69, 1);
+  background-color: rgb(69, 69, 69);
   width: 28.33%;
   height: 150px;
   padding-left: 2.5%;
@@ -117,7 +117,7 @@ body {
 /* single column layout (start) */
 .column.single {
   left: 30%;
-  background-color: rgba(97, 97, 100, 1);
+  background-color: rgb(97, 97, 100);
   width: 95%;
   padding-left: 2.5%;
   padding-right: 2.5%;
@@ -137,7 +137,7 @@ p a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(139, 137, 133, 1);
+  background-color: rgb(139, 137, 133);
   width: 100%;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -165,8 +165,8 @@ li a,
 
 li a:hover:not(.active),
 .dropdown:hover:not(.active) .dropbtn {
-  color: rgba(115, 116, 115, 1);
-  background-color: rgba(34, 34, 34, 1);
+  color: rgb(115, 116, 115);
+  background-color: rgb(34, 34, 34);
 }
 
 .topnav li.dropdown {
@@ -181,8 +181,8 @@ li a:hover:not(.active),
 }
 
 .topnav .dropdown-content a:hover {
-  color: rgba(37, 37, 37, 1);
-  background-color: rgba(99, 97, 99, 1);
+  color: rgb(37, 37, 37);
+  background-color: rgb(99, 97, 99);
 }
 
 .dropdown:hover .dropdown-content {
@@ -190,7 +190,30 @@ li a:hover:not(.active),
 }
 
 .topnav .active {
-  color: rgba(99, 99, 99, 1);
-  background-color: rgba(200, 200, 200, 1);
+  color: rgb(99, 99, 99);
+  background-color: rgb(200, 200, 200);
 }
 /* top horizontal navigation bar layout (end) */
+
+/* form styling (start) */
+.form.login {
+  background-color: rgb(69, 69, 69);
+  color: rgb(200, 200, 200);
+}
+
+.fieldset.login,
+.fieldset.signup {
+  border-style: none;
+}
+
+.fieldset.legend.login,
+.fieldset.legend.signup {
+  color:rgb(115, 116, 115);
+}
+
+.button.login,
+.button.signup {
+  background-color: rgb(34, 34, 34);
+  color: rgb(115, 116, 115);
+}
+/* form styling (end) */

@@ -35,15 +35,28 @@
     <div class="column">
       <div class="column single">
         <h3>Sign-Up:</h3>
-        <form title="Sign-Up:" target="_self">
-          <fieldset title="Username" contenteditable="true" inputmode="">
-            <legend>Username</legend>
+        <form class="form signup" title="Sign-Up:" target="_self">
+          <fieldset class="fieldset signup" title="Email" aria-placeholder="Email" contenteditable="true" inputmode="">
+            <legend class="fieldset legend signup">Email</legend>
           </fieldset>
-          <fieldset title="Password" contenteditable="true" inputmode="">
-            <legend>Password</legend>
+          <fieldset class="fieldset signup" title="First Name" aria-placeholder="First Name" contenteditable="true" inputmode="">
+            <legend class="fieldset legend signup">First Name</legend>
+          </fieldset>
+          <fieldset class="fieldset signup" title="Last Name" aria-placeholder="Last Name" contenteditable="true" inputmode="">
+            <legend class="fieldset legend signup">Last Name</legend>
+          </fieldset>
+          <fieldset class="fieldset signup" title="Username" aria-placeholder="Username" contenteditable="true" inputmode="">
+            <legend class="fieldset legend signup">Username</legend>
+          </fieldset>
+          <fieldset class="fieldset signup" title="Password" aria-placeholder="Password" contenteditable="true" inputmode="password">
+            <legend class="fieldset legend signup">Password</legend>
+          </fieldset>
+          <fieldset class="fieldset signup" title="Confirm Password" aria-placeholder="Confirm Password" contenteditable="true" inputmode="password">
+            <legend class="fieldset legend signup">Confirm Password</legend>
           </fieldset>
 
           <button
+            class="button signup"
             title="Sign-Up"
             formaction="../errors/featureNotReleased.html"
           >
