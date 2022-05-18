@@ -40,18 +40,27 @@
             class="fieldset login"
             title="Username/Email"
             aria-placeholder="Username/Email"
-            contenteditable="true"
-            inputmode=""
           >
-            <legend class="fieldset legend login">Username/Email</legend>
+            <input
+              contenteditable="true"
+              required="true"
+              inputmode="email"
+              spellcheck="false"
+            />
+            <legend class="fieldset legend login">Email</legend>
           </fieldset>
           <fieldset
             class="fieldset login"
             title="Password"
             aria-placeholder="Password"
-            contenteditable="true"
-            inputmode="password"
           >
+            <input
+              type="password"
+              contenteditable="true"
+              required="true"
+              inputmode="latin"
+              spellcheck="false"
+            />
             <legend class="fieldset legend login">Password</legend>
           </fieldset>
 
