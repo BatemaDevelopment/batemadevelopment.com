@@ -1,70 +1,78 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>BatemaDevelopment</title>
-
-    <link rel="stylesheet" type="text/css" href="./src/css/theme.css" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="./share/images/x-icon/dark-shortcut-icon.png"
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="
+               width=device-width, initial-scale=1.00;
+               height=device-height, initial-scale=1.00;
+              "
+    />
+    <meta name="author" content="Lukas Batema, BatemaDevelopment" />
+    <meta name="description" content="The official site of BatemaDevelopment" />
+    <meta
+      name="keywords"
+      content="BatemaDevelopment, Programming, Coding, HTML5, CSS3, HTML, CSS"
     />
 
-    <meta type="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="BatemaDevelopment Official" />
-    <meta name="keywords" content="BatemaDevelopment" />
+    <link rel="stylesheet" type="text/css" href="src/css/theme.css" />
+
+    <title>BatemaDevelopment</title>
   </head>
 
   <body>
-    <div class="topnav">
-      <ul>
-        <li class="active"><a href="javascript:void(0)">Home</a></li>
-        <li><a href="./store/store.html">Store</a></li>
-        <li><a href="./contact/contact.html">Contact</a></li>
-        <li><a href="./other/projects.html">My Projects</a></li>
-        <li><a href="./other/about.html">About</a></li>
-        <li><a href="./accounts/login.html">Login</a></li>
-        <li><a href="./accounts/signup.html">Sign-Up</a></li>
-      </ul>
-    </div>
+    <header>
+      <div class="flex">
+        <h1>BatemaDevelopment</h1>
 
-    <header class="header">
-      <img alt="Header Image" src="./share/images/headers/dark-header.png" />
+        <nav id="navbar">
+          <a href="javascript:void(0);"> Home </a>
+          <a href="javascript:void(0);"> Store </a>
+          <a href="javascript:void(0);"> About </a>
+          <a href="javascript:void(0);"> Contact </a>
+          <a href="javascript:void(0);"> Projects </a>
+          <a href="javascript:void(0);"> Blog </a>
+          <a href="javascript:void(0);"> Login </a>
+        </nav>
+
+        <img
+          alt="BatemaDevelopment Emblem"
+          src="share/images/headers/batemadevelopment_icon.png"
+        />
+      </div>
     </header>
 
-    <div class="column">
-      <div class="column left">
-        <h3>Welcome</h3>
+    <main>
+      <div class="flex">
+        <h2>Welcome</h2>
+
         <p>
           Welcome to BatemaDevelopment, thank you for stopping by, please have a
           look around while you are here!
         </p>
       </div>
+    </main>
 
-      <div class="column right">
-        <h3>Blog Posts</h3>
-        <a href="javascript:void(0)">N/A</a>
+    <footer>
+      <div class="flex">
+        <p>&copy;2022 BatemaDevelopment</p>
+
+        <a href="agreements/tos.html"> Terms of Service </a>
+        <a href="agreements/privacypolicy.html"> Privacy Policy </a>
       </div>
-    </div>
-
-    <footer class="footer">
-      <a href="https://shockbyte.com/billing/aff.php?aff=4706"><img src="https://shockbyte.com/assets/img/partners/twitch/shockbyte_affiliate.png" alt="Minecraft Server Hosting" /></a>
-
-      <p>
-        <a href="./agreements/tos.html">Terms of Service</a><br /><a
-          href="./agreements/privacypolicy.html"
-          >Privacy Policy</a
-        >
-      </p>
     </footer>
 
-    <script type="module" src="./src/js/index.js"></script>
+    <script type="module" src="src/js/index.js"></script>
+    <script src="src/js/animations.js"></script>
 
     <script
       async
       defer
       src="https://api.batemadevelopment.com/latest.js"
     ></script>
+
     <noscript
       ><img
         src="https://api.batemadevelopment.com/noscript.gif"
