@@ -19,10 +19,6 @@
   "keywords": [
     "BatemaDevelopment"
   ],
-  "authors": [
-    "Lukas-Batema",
-    "BatemaDevelopment"
-  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Lukas-Batema/batemadevelopment.com/issues"
@@ -30,5 +26,9 @@
   "homepage": "https://github.com/Lukas-Batema/batemadevelopment.com#readme",
   "devDependencies": {
     "pg": "^8.7.3"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BatemaDevelopment"
 }
