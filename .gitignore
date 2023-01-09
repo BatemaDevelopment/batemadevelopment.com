@@ -354,6 +354,3 @@ MigrationBackup/
 
 # Developer Files
 Developer/
-
-# Codespaces
-.devcontainer/
