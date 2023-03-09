@@ -5,7 +5,7 @@
     "animejs": "^3.2.1",
     "tcol": "^1.0.1"
   },
-  "name": "lukas-batema.github.io",
+  "name": "batemadevelopment.com",
   "description": "Welcome to the official website for BatemaDevelopment!",
   "version": "1.0.0",
   "private": true,
@@ -14,21 +14,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lukas-Batema/lukas-batema.github.io.git"
+    "url": "git+https://github.com/Lukas-Batema/batemadevelopment.com.git"
   },
   "keywords": [
     "BatemaDevelopment"
   ],
-  "authors": [
-    "Lukas-Batema",
-    "BatemaDevelopment"
-  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lukas-Batema/lukas-batema.github.io/issues"
+    "url": "https://github.com/Lukas-Batema/batemadevelopment.com/issues"
   },
-  "homepage": "https://github.com/Lukas-Batema/lukas-batema.github.io#readme",
+  "homepage": "https://github.com/Lukas-Batema/batemadevelopment.com#readme",
   "devDependencies": {
     "pg": "^8.7.3"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BatemaDevelopment"
 }

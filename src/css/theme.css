@@ -1,0 +1,149 @@
+/*
+  Created by BatemaDevelopment
+*/
+
+/*
+  general styling (start)
+*/
+* {
+  position: relative;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*
+  general styling (end)
+*/
+
+/*
+  header styling (start)
+*/
+body header div.flex {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 1em;
+  background-color: #313030;
+}
+
+body header div.flex h1 {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  font-size: 48px;
+  float: left;
+}
+
+/*
+  nav styling (start)
+*/
+body header div.flex nav {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  float: right;
+}
+
+body header div.flex nav a {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  width: max-content;
+  margin-right: 2em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body header div.flex nav a:not(:hover) {
+  transition: 500ms ease-out;
+}
+
+body header div.flex nav a:hover {
+  color: #c1c7ca;
+  transition: all 500ms ease-in;
+}
+/*
+  nav styling (end)
+*/
+
+body header div.flex img {
+  display: flex;
+  align-self: center;
+  width: 7%;
+  height: 7%;
+  margin-right: 0.5em;
+  border-radius: 50%;
+}
+/*
+  header styling (end)
+*/
+
+/*
+  main styling (start)
+*/
+body main div.flex {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden auto;
+  min-width: 300px;
+  width: 100%;
+  max-width: 4200px;
+  min-height: 300px;
+  height: 100%;
+  max-height: 4200px;
+  margin: 0;
+  padding: 16% 1em 16% 1em;
+  background-color: #1e1e1e;
+}
+
+body main div.flex h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #6e7071;
+}
+
+body main div.flex p {
+  color: #bdc0c2;
+}
+/*
+  main styling (end)
+*/
+
+/*
+  footer styling (start)
+*/
+body footer div.flex {
+  position: fixed;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0.5em;
+  background-color: #313030;
+}
+/*
+  footer styling (end)
+*/
