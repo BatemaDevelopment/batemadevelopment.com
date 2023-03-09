@@ -10,7 +10,7 @@ function un_hoverNavLink() {
   const un_hover = document.querySelector("nav#navbar a:not(:hover)").id;
 
   document.getElementById(un_hover).style.animation =
-    "navBarUn_hover ease-out 500ms";
+      "navBarUn_hover ease-out 500ms";
 
   document.getElementById(un_hover).style.color = "#ffffff";
 }
