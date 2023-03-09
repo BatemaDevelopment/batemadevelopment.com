@@ -114,7 +114,11 @@ body main div.flex {
   background-color: #1e1e1e;
 }
 
-body main div.flex h2, h3, h4, h5, h6 {
+body main div.flex h2,
+h3,
+h4,
+h5,
+h6 {
   color: #6e7071;
 }
 
