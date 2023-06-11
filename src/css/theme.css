@@ -6,17 +6,14 @@
   general styling (start)
 */
 * {
-  position: relative;
-  box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 /*
   general styling (end)
@@ -25,22 +22,13 @@ body {
 /*
   header styling (start)
 */
-body header div.flex {
-  position: relative;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  overflow: hidden;
-  width: 100%;
-  padding: 0.5em 0.5em 0.5em 1em;
+header {
+  margin: 0;
+  width: calc(100% - 4em);
   background-color: #313030;
 }
 
-body header div.flex h1 {
-  display: inline-flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
+header h1 {
   width: max-content;
   font-size: 48px;
   float: left;
@@ -49,32 +37,55 @@ body header div.flex h1 {
 /*
   nav styling (start)
 */
-body header div.flex nav {
-  display: inline-flex;
-  flex-flow: row nowrap;
+header nav {
+  display: flex;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  width: max-content;
-  float: right;
+  width: 100%;
+  padding: 1em;
+  background-color: #313030;
 }
 
-body header div.flex nav a {
-  display: inline-flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
+header nav a {
+  margin: 0;
+  float: right;
   font-size: 18px;
-  width: max-content;
-  margin-right: 2em;
   text-decoration: none;
   color: #ffffff;
 }
 
-body header div.flex nav a:not(:hover) {
+@media only screen and (min-width: 481px) {
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+  }
+
+  header nav a {
+    padding: 2em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    width: calc(100% - 2em);
+    padding: 1em;
+  }
+
+  header nav a {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 0.5em;
+  }
+}
+
+header nav a:not(:hover) {
   transition: 500ms ease-out;
 }
 
-body header div.flex nav a:hover {
+header nav a:hover {
   color: #c1c7ca;
   transition: all 500ms ease-in;
 }
@@ -82,11 +93,10 @@ body header div.flex nav a:hover {
   nav styling (end)
 */
 
-body header div.flex img {
+header img {
   display: flex;
   align-self: center;
-  width: 7%;
-  height: 7%;
+  width: 5rem;
   margin-right: 0.5em;
   border-radius: 50%;
 }
@@ -97,24 +107,17 @@ body header div.flex img {
 /*
   main styling (start)
 */
-body main div.flex {
+main {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  overflow: hidden auto;
-  min-width: 300px;
-  width: 100%;
-  max-width: 4200px;
-  min-height: 300px;
-  height: 100%;
-  max-height: 4200px;
   margin: 0;
-  padding: 16% 1em 16% 1em;
+  padding: 0.5em 2em;
   background-color: #1e1e1e;
 }
 
-body main div.flex h2,
+main h2,
 h3,
 h4,
 h5,
@@ -122,7 +125,7 @@ h6 {
   color: #6e7071;
 }
 
-body main div.flex p {
+main p {
   color: #bdc0c2;
 }
 /*
@@ -132,16 +135,14 @@ body main div.flex p {
 /*
   footer styling (start)
 */
-body footer div.flex {
-  position: fixed;
+footer {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  bottom: 0;
-  width: 100%;
+  text-align: center;
   margin: 0;
-  padding: 0.5em;
+  padding: 2em;
   background-color: #313030;
 }
 /*
